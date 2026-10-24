@@ -1,0 +1,12 @@
+# Source HTML is kept locally so the public repository only receives the encrypted build.
+/site-source.html
+/kickoff-layout.html
+/locked-site/
+
+# Local keys, credentials, build caches, and OS/editor files.
+.env
+.env.*
+*.key
+*.pem
+.DS_Store
+node_modules/
